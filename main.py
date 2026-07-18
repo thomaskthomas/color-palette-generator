@@ -83,7 +83,7 @@ print("\n==============================")
 print("DBSCAN Dominant Colors")
 print("==============================")
 
-dbscan = DBSCAN(eps=3, min_samples=30)
+dbscan = DBSCAN(eps=3, min_samples=20)
 
 db_labels = dbscan.fit_predict(pixels)
 
